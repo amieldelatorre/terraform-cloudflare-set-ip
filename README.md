@@ -16,7 +16,8 @@ Create a Cloudflare record based on your current IP Address.
     2. `__CLOUDFLARE_ZONE_ID__`
     3. `__RECORD_NAME__`
     4. `__TTL__`
-3. Run `apply.sh`
+3. Run `terraform init`
+4. Run `apply.sh`
 
 ### Adding to crontab
 Must have `cron` installed. Open crontab with `crontab -e` and add the line:
